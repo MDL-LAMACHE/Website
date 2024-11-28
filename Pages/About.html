@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MDL - Lamache</title>
+    <link rel="stylesheet" href="../styles/style-about.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+</div>
+<nav>
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <b>
+        <a class="navy" href="../index.html">Acceuil</a>
+        <a class="navy" href="./menu.html">La Carte</a>
+        <a class="navy" href="./events.html">Les Events</a>
+        <a class="navy" href="./About.html">Qui sommes nous ?</a>
+    </b>
+</nav>
+</div>
+
+<body>
+<h1 class="intitle">C'est quoi la MDL ?</h1>
+<p class="aboutou">La Maison des Lycéens (MDL) de La Mache est une association gérée par les élèves pour les élèves. Elle réunit les lycéens autour d’activités culturelles, artistiques, sportives et humanitaires, tout en favorisant l’autonomie et la prise de responsabilité de chacun.</p>
+<p class="aboutou">En plus d’organiser des événements et des projets, la MDL gère également le foyer et la buvette du lycée. Ces espaces de détente sont pensés pour créer un lieu convivial où les élèves peuvent se retrouver et échanger. La gestion de la buvette et du foyer permet aux lycéens de s’impliquer activement dans la vie de l’établissement et de prendre en charge des responsabilités concrètes au quotidien.</p>
+<p class="aboutou">La MDL est ouverte à tous ceux qui souhaitent participer et s’engager dans la vie du lycée !</p>
+
+</body>
+<downer>
+    <p class="downer"><strong>©MDL-LAMACHE 2024-2025</strong></p>
+</downer>
+<script>
+    function toggleMenu() {
+        var links = document.querySelectorAll('nav a');
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].style.display === 'block') {
+                links[i].style.display = 'none';
+            } else {
+                links[i].style.display = 'block';
+            }
+        }
+    }
+</script>
+</html>

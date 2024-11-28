@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MDL - Lamache</title>
+  <link rel="stylesheet" href="/styles/style-index.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+</div>
+<nav>
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <b>
+        <a class="navy" href="./index.html">Acceuil</a>
+        <a class="navy" href="./Pages/menu.html">La Carte</a>
+        <a class="navy" href="./Pages/events.html">Les Events</a>
+        <a class="navy" href="./Pages/About.html">Qui sommes nous ?</a>
+    </b>
+</nav>
+</div>
+
+<body>
+  <h1 class="intitle">Bienvenue !</h1>
+  <p class="AD">Achetez Dès maintenant une carte MDL !</p>
+  <img  class="MDL-carte" src="./affiches/cartes.png" alt="Cartes MDL">
+    <corp>
+        <h2 class="intitle"> En ce moment:</h2>
+        <img class="poker" src="./affiches/Halloween.png" alt="Halloween">
+    </corp>
+</body>
+<downer>
+    <p class="downer"><strong>©MDL-LAMACHE 2024-2025</strong></p>
+</downer>
+<script>
+    function toggleMenu() {
+        var links = document.querySelectorAll('nav a');
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].style.display === 'block') {
+                links[i].style.display = 'none';
+            } else {
+                links[i].style.display = 'block';
+            }
+        }
+    }
+</script>
+</html>
